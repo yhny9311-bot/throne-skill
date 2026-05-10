@@ -1,0 +1,62 @@
+# Optional external officials. These are not guaranteed installed tools.
+# Check availability before recommending execution.
+
+zhongshu:
+  literature_deconstruction:
+    - name: Future-House/paper-qa
+      role: Scientific paper RAG and question answering.
+    - name: litllm/litllm
+      role: RAG-assisted related work and literature synthesis.
+    - name: yilewang/llm-for-zotero
+      role: Zotero PDF question answering and note capture.
+
+qintianjian:
+  remote_sensing_gis:
+    - name: gee-community/geemap
+      role: Python interface for Google Earth Engine analysis and visualization.
+    - name: opengeos/leafmap
+      role: Interactive geospatial visualization and analysis.
+    - name: opengeos/segment-geospatial
+      role: SAM-based geospatial image segmentation.
+    - name: QGIS GeoAI Plugin
+      role: GeoAI workflows inside QGIS.
+
+gongbu:
+  spatial_simulation:
+    - name: Circuitscape/Circuitscape.jl
+      role: Circuit-theory connectivity modeling.
+    - name: linkagescape/linkage-mapper
+      role: Habitat corridor identification and prioritization.
+    - name: Circuitscape/Omniscape.jl
+      role: Omnidirectional connectivity modeling.
+    - name: HPSCIL/Patch-generating_Land_Use_Simulation_Model
+      role: PLUS land-use simulation.
+    - name: martibosch/pylandstats
+      role: Landscape metrics in Python.
+    - name: gboeing/osmnx
+      role: OpenStreetMap street-network analysis.
+
+taichangsi:
+  figure_style:
+    - name: Yuan1z0825/nature-skills
+      role: Nature-style figure and scientific communication references.
+    - name: garrettj403/SciencePlots
+      role: Matplotlib styles for publication figures.
+    - name: faridrashidi/cnsplots
+      role: Publication-ready scientific plotting style references.
+
+shangbaosi:
+  citation_check:
+    - name: markrussinovich/refchecker
+      role: Reference validation and hallucinated citation detection.
+    - name: benchoi93/refcheck
+      role: MCP citation verification and BibTeX support.
+    - name: vishakhpk/verify_citations
+      role: BibTeX citation checking against scholarly databases.
+
+hanlin:
+  writing:
+    - name: K-Dense-AI/claude-scientific-writer
+      role: Scientific writing and citation-management skill reference.
+    - name: blader/humanizer
+      role: Naturalness editing reference; never use to evade detection.

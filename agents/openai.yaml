@@ -1,0 +1,7 @@
+interface:
+  display_name: "Throne Skill"
+  short_description: "风景园林科研王朝式工作流导航"
+  default_prompt: "Use $throne-skill to turn my landscape research papers or rough topic into literature cards, method matrices, SOPs, and a manuscript skeleton."
+
+policy:
+  allow_implicit_invocation: true
